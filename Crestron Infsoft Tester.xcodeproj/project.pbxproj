@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5754A30F1D590DC400D75894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5754A30E1D590DC400D75894 /* main.m */; };
+		5754A3121D590DC400D75894 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5754A3111D590DC400D75894 /* AppDelegate.m */; };
+		5754A3151D590DC400D75894 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5754A3141D590DC400D75894 /* ViewController.m */; };
+		5754A3181D590DC400D75894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5754A3161D590DC400D75894 /* Main.storyboard */; };
+		5754A31A1D590DC400D75894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5754A3191D590DC400D75894 /* Assets.xcassets */; };
+		5754A31D1D590DC400D75894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5754A31B1D590DC400D75894 /* LaunchScreen.storyboard */; };
+		5754A3281D590DC400D75894 /* Crestron_Infsoft_TesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5754A3271D590DC400D75894 /* Crestron_Infsoft_TesterTests.m */; };
+		5754A3331D590DC400D75894 /* Crestron_Infsoft_TesterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5754A3321D590DC400D75894 /* Crestron_Infsoft_TesterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5754A3241D590DC400D75894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5754A3021D590DC400D75894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5754A3091D590DC400D75894;
+			remoteInfo = "Crestron Infsoft Tester";
+		};
+		5754A32F1D590DC400D75894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5754A3021D590DC400D75894 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5754A3091D590DC400D75894;
+			remoteInfo = "Crestron Infsoft Tester";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5754A30A1D590DC400D75894 /* Crestron Infsoft Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crestron Infsoft Tester.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5754A30E1D590DC400D75894 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5754A3101D590DC400D75894 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5754A3111D590DC400D75894 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5754A3131D590DC400D75894 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5754A3141D590DC400D75894 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5754A3171D590DC400D75894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5754A3191D590DC400D75894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5754A31C1D590DC400D75894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5754A31E1D590DC400D75894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5754A3231D590DC400D75894 /* Crestron Infsoft TesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crestron Infsoft TesterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5754A3271D590DC400D75894 /* Crestron_Infsoft_TesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crestron_Infsoft_TesterTests.m; sourceTree = "<group>"; };
+		5754A3291D590DC400D75894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5754A32E1D590DC400D75894 /* Crestron Infsoft TesterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crestron Infsoft TesterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5754A3321D590DC400D75894 /* Crestron_Infsoft_TesterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crestron_Infsoft_TesterUITests.m; sourceTree = "<group>"; };
+		5754A3341D590DC400D75894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5754A3071D590DC400D75894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5754A3201D590DC400D75894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5754A32B1D590DC400D75894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5754A3011D590DC400D75894 = {
+			isa = PBXGroup;
+			children = (
+				5754A30C1D590DC400D75894 /* Crestron Infsoft Tester */,
+				5754A3261D590DC400D75894 /* Crestron Infsoft TesterTests */,
+				5754A3311D590DC400D75894 /* Crestron Infsoft TesterUITests */,
+				5754A30B1D590DC400D75894 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5754A30B1D590DC400D75894 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5754A30A1D590DC400D75894 /* Crestron Infsoft Tester.app */,
+				5754A3231D590DC400D75894 /* Crestron Infsoft TesterTests.xctest */,
+				5754A32E1D590DC400D75894 /* Crestron Infsoft TesterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5754A30C1D590DC400D75894 /* Crestron Infsoft Tester */ = {
+			isa = PBXGroup;
+			children = (
+				5754A3101D590DC400D75894 /* AppDelegate.h */,
+				5754A3111D590DC400D75894 /* AppDelegate.m */,
+				5754A3131D590DC400D75894 /* ViewController.h */,
+				5754A3141D590DC400D75894 /* ViewController.m */,
+				5754A3161D590DC400D75894 /* Main.storyboard */,
+				5754A3191D590DC400D75894 /* Assets.xcassets */,
+				5754A31B1D590DC400D75894 /* LaunchScreen.storyboard */,
+				5754A31E1D590DC400D75894 /* Info.plist */,
+				5754A30D1D590DC400D75894 /* Supporting Files */,
+			);
+			path = "Crestron Infsoft Tester";
+			sourceTree = "<group>";
+		};
+		5754A30D1D590DC400D75894 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5754A30E1D590DC400D75894 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5754A3261D590DC400D75894 /* Crestron Infsoft TesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				5754A3271D590DC400D75894 /* Crestron_Infsoft_TesterTests.m */,
+				5754A3291D590DC400D75894 /* Info.plist */,
+			);
+			path = "Crestron Infsoft TesterTests";
+			sourceTree = "<group>";
+		};
+		5754A3311D590DC400D75894 /* Crestron Infsoft TesterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5754A3321D590DC400D75894 /* Crestron_Infsoft_TesterUITests.m */,
+				5754A3341D590DC400D75894 /* Info.plist */,
+			);
+			path = "Crestron Infsoft TesterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5754A3091D590DC400D75894 /* Crestron Infsoft Tester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5754A3371D590DC400D75894 /* Build configuration list for PBXNativeTarget "Crestron Infsoft Tester" */;
+			buildPhases = (
+				5754A3061D590DC400D75894 /* Sources */,
+				5754A3071D590DC400D75894 /* Frameworks */,
+				5754A3081D590DC400D75894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crestron Infsoft Tester";
+			productName = "Crestron Infsoft Tester";
+			productReference = 5754A30A1D590DC400D75894 /* Crestron Infsoft Tester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5754A3221D590DC400D75894 /* Crestron Infsoft TesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5754A33A1D590DC400D75894 /* Build configuration list for PBXNativeTarget "Crestron Infsoft TesterTests" */;
+			buildPhases = (
+				5754A31F1D590DC400D75894 /* Sources */,
+				5754A3201D590DC400D75894 /* Frameworks */,
+				5754A3211D590DC400D75894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5754A3251D590DC400D75894 /* PBXTargetDependency */,
+			);
+			name = "Crestron Infsoft TesterTests";
+			productName = "Crestron Infsoft TesterTests";
+			productReference = 5754A3231D590DC400D75894 /* Crestron Infsoft TesterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5754A32D1D590DC400D75894 /* Crestron Infsoft TesterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5754A33D1D590DC400D75894 /* Build configuration list for PBXNativeTarget "Crestron Infsoft TesterUITests" */;
+			buildPhases = (
+				5754A32A1D590DC400D75894 /* Sources */,
+				5754A32B1D590DC400D75894 /* Frameworks */,
+				5754A32C1D590DC400D75894 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5754A3301D590DC400D75894 /* PBXTargetDependency */,
+			);
+			name = "Crestron Infsoft TesterUITests";
+			productName = "Crestron Infsoft TesterUITests";
+			productReference = 5754A32E1D590DC400D75894 /* Crestron Infsoft TesterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5754A3021D590DC400D75894 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Victor Wang";
+				TargetAttributes = {
+					5754A3091D590DC400D75894 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5754A3221D590DC400D75894 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5754A3091D590DC400D75894;
+					};
+					5754A32D1D590DC400D75894 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5754A3091D590DC400D75894;
+					};
+				};
+			};
+			buildConfigurationList = 5754A3051D590DC400D75894 /* Build configuration list for PBXProject "Crestron Infsoft Tester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5754A3011D590DC400D75894;
+			productRefGroup = 5754A30B1D590DC400D75894 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5754A3091D590DC400D75894 /* Crestron Infsoft Tester */,
+				5754A3221D590DC400D75894 /* Crestron Infsoft TesterTests */,
+				5754A32D1D590DC400D75894 /* Crestron Infsoft TesterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5754A3081D590DC400D75894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5754A31D1D590DC400D75894 /* LaunchScreen.storyboard in Resources */,
+				5754A31A1D590DC400D75894 /* Assets.xcassets in Resources */,
+				5754A3181D590DC400D75894 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5754A3211D590DC400D75894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5754A32C1D590DC400D75894 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5754A3061D590DC400D75894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5754A3151D590DC400D75894 /* ViewController.m in Sources */,
+				5754A3121D590DC400D75894 /* AppDelegate.m in Sources */,
+				5754A30F1D590DC400D75894 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5754A31F1D590DC400D75894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5754A3281D590DC400D75894 /* Crestron_Infsoft_TesterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5754A32A1D590DC400D75894 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5754A3331D590DC400D75894 /* Crestron_Infsoft_TesterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5754A3251D590DC400D75894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5754A3091D590DC400D75894 /* Crestron Infsoft Tester */;
+			targetProxy = 5754A3241D590DC400D75894 /* PBXContainerItemProxy */;
+		};
+		5754A3301D590DC400D75894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5754A3091D590DC400D75894 /* Crestron Infsoft Tester */;
+			targetProxy = 5754A32F1D590DC400D75894 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5754A3161D590DC400D75894 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5754A3171D590DC400D75894 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5754A31B1D590DC400D75894 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5754A31C1D590DC400D75894 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5754A3351D590DC400D75894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5754A3361D590DC400D75894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5754A3381D590DC400D75894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Crestron Infsoft Tester/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Victory-Labs.Crestron-Infsoft-Tester";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5754A3391D590DC400D75894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Crestron Infsoft Tester/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Victory-Labs.Crestron-Infsoft-Tester";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5754A33B1D590DC400D75894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Crestron Infsoft TesterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Victory-Labs.Crestron-Infsoft-TesterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crestron Infsoft Tester.app/Crestron Infsoft Tester";
+			};
+			name = Debug;
+		};
+		5754A33C1D590DC400D75894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Crestron Infsoft TesterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Victory-Labs.Crestron-Infsoft-TesterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crestron Infsoft Tester.app/Crestron Infsoft Tester";
+			};
+			name = Release;
+		};
+		5754A33E1D590DC400D75894 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Crestron Infsoft TesterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Victory-Labs.Crestron-Infsoft-TesterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Crestron Infsoft Tester";
+			};
+			name = Debug;
+		};
+		5754A33F1D590DC400D75894 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Crestron Infsoft TesterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Victory-Labs.Crestron-Infsoft-TesterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Crestron Infsoft Tester";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5754A3051D590DC400D75894 /* Build configuration list for PBXProject "Crestron Infsoft Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5754A3351D590DC400D75894 /* Debug */,
+				5754A3361D590DC400D75894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5754A3371D590DC400D75894 /* Build configuration list for PBXNativeTarget "Crestron Infsoft Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5754A3381D590DC400D75894 /* Debug */,
+				5754A3391D590DC400D75894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5754A33A1D590DC400D75894 /* Build configuration list for PBXNativeTarget "Crestron Infsoft TesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5754A33B1D590DC400D75894 /* Debug */,
+				5754A33C1D590DC400D75894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5754A33D1D590DC400D75894 /* Build configuration list for PBXNativeTarget "Crestron Infsoft TesterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5754A33E1D590DC400D75894 /* Debug */,
+				5754A33F1D590DC400D75894 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5754A3021D590DC400D75894 /* Project object */;
+}
