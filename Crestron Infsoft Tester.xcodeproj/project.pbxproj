@@ -15,6 +15,16 @@
 		5754A31D1D590DC400D75894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5754A31B1D590DC400D75894 /* LaunchScreen.storyboard */; };
 		5754A3281D590DC400D75894 /* Crestron_Infsoft_TesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5754A3271D590DC400D75894 /* Crestron_Infsoft_TesterTests.m */; };
 		5754A3331D590DC400D75894 /* Crestron_Infsoft_TesterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5754A3321D590DC400D75894 /* Crestron_Infsoft_TesterUITests.m */; };
+		5754A3481D590E8500D75894 /* libInfsoftLocator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5754A3441D590E8500D75894 /* libInfsoftLocator.a */; };
+		5754A3491D590E8500D75894 /* libInfsoftMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5754A3471D590E8500D75894 /* libInfsoftMaps.a */; };
+		5754A34B1D590EA500D75894 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5754A34A1D590EA500D75894 /* CoreLocation.framework */; };
+		5754A34D1D590ED300D75894 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5754A34C1D590ED300D75894 /* Foundation.framework */; };
+		5754A34F1D590EDD00D75894 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5754A34E1D590EDD00D75894 /* CoreGraphics.framework */; };
+		5754A3511D590EE700D75894 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5754A3501D590EE700D75894 /* CoreBluetooth.framework */; };
+		5754A3531D590EEF00D75894 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5754A3521D590EEF00D75894 /* QuartzCore.framework */; };
+		5754A3551D590EF800D75894 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5754A3541D590EF800D75894 /* UIKit.framework */; };
+		5754A3571D5911D200D75894 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5754A3561D5911D200D75894 /* libz.tbd */; };
+		5754A3591D5911DB00D75894 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5754A3581D5911DB00D75894 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,18 @@
 		5754A32E1D590DC400D75894 /* Crestron Infsoft TesterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crestron Infsoft TesterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5754A3321D590DC400D75894 /* Crestron_Infsoft_TesterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crestron_Infsoft_TesterUITests.m; sourceTree = "<group>"; };
 		5754A3341D590DC400D75894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5754A3441D590E8500D75894 /* libInfsoftLocator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libInfsoftLocator.a; path = sdks/libInfsoftLocator.a; sourceTree = "<group>"; };
+		5754A3451D590E8500D75894 /* InfsoftLocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfsoftLocator.h; path = sdks/InfsoftLocator.h; sourceTree = "<group>"; };
+		5754A3461D590E8500D75894 /* InfsoftMaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfsoftMaps.h; path = sdks/InfsoftMaps.h; sourceTree = "<group>"; };
+		5754A3471D590E8500D75894 /* libInfsoftMaps.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libInfsoftMaps.a; path = sdks/libInfsoftMaps.a; sourceTree = "<group>"; };
+		5754A34A1D590EA500D75894 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5754A34C1D590ED300D75894 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5754A34E1D590EDD00D75894 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5754A3501D590EE700D75894 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		5754A3521D590EEF00D75894 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5754A3541D590EF800D75894 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5754A3561D5911D200D75894 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		5754A3581D5911DB00D75894 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5754A3591D5911DB00D75894 /* libsqlite3.tbd in Frameworks */,
+				5754A3571D5911D200D75894 /* libz.tbd in Frameworks */,
+				5754A3551D590EF800D75894 /* UIKit.framework in Frameworks */,
+				5754A3531D590EEF00D75894 /* QuartzCore.framework in Frameworks */,
+				5754A3511D590EE700D75894 /* CoreBluetooth.framework in Frameworks */,
+				5754A34F1D590EDD00D75894 /* CoreGraphics.framework in Frameworks */,
+				5754A34D1D590ED300D75894 /* Foundation.framework in Frameworks */,
+				5754A34B1D590EA500D75894 /* CoreLocation.framework in Frameworks */,
+				5754A3491D590E8500D75894 /* libInfsoftMaps.a in Frameworks */,
+				5754A3481D590E8500D75894 /* libInfsoftLocator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +113,15 @@
 		5754A3011D590DC400D75894 = {
 			isa = PBXGroup;
 			children = (
+				5754A3581D5911DB00D75894 /* libsqlite3.tbd */,
+				5754A3561D5911D200D75894 /* libz.tbd */,
+				5754A3541D590EF800D75894 /* UIKit.framework */,
+				5754A3521D590EEF00D75894 /* QuartzCore.framework */,
+				5754A3501D590EE700D75894 /* CoreBluetooth.framework */,
+				5754A34E1D590EDD00D75894 /* CoreGraphics.framework */,
+				5754A34C1D590ED300D75894 /* Foundation.framework */,
+				5754A34A1D590EA500D75894 /* CoreLocation.framework */,
+				5754A3431D590E5700D75894 /* sdks */,
 				5754A30C1D590DC400D75894 /* Crestron Infsoft Tester */,
 				5754A3261D590DC400D75894 /* Crestron Infsoft TesterTests */,
 				5754A3311D590DC400D75894 /* Crestron Infsoft TesterUITests */,
@@ -138,6 +179,17 @@
 				5754A3341D590DC400D75894 /* Info.plist */,
 			);
 			path = "Crestron Infsoft TesterUITests";
+			sourceTree = "<group>";
+		};
+		5754A3431D590E5700D75894 /* sdks */ = {
+			isa = PBXGroup;
+			children = (
+				5754A3441D590E8500D75894 /* libInfsoftLocator.a */,
+				5754A3451D590E8500D75894 /* InfsoftLocator.h */,
+				5754A3461D590E8500D75894 /* InfsoftMaps.h */,
+				5754A3471D590E8500D75894 /* libInfsoftMaps.a */,
+			);
+			name = sdks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +259,7 @@
 				TargetAttributes = {
 					5754A3091D590DC400D75894 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XCGKYY79KM;
 					};
 					5754A3221D590DC400D75894 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -366,8 +419,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -404,8 +458,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -413,10 +469,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Crestron Infsoft Tester/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sdks",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-lstdc++";
 				PRODUCT_BUNDLE_IDENTIFIER = "Victory-Labs.Crestron-Infsoft-Tester";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -424,10 +490,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Crestron Infsoft Tester/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sdks",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-lstdc++";
 				PRODUCT_BUNDLE_IDENTIFIER = "Victory-Labs.Crestron-Infsoft-Tester";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};

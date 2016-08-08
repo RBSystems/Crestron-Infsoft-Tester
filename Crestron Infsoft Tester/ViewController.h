@@ -7,9 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "InfsoftLocator.h"
+#import "InfsoftMaps.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <ILLocationListener>
+{
+    ILLocationManager* _locationManager;
+    MapView* _mapView;
+    NSMutableArray *resultArr;
+}
 
+@property (strong, nonatomic) IBOutlet UILabel *lattitudeLabel;
+@property (strong, nonatomic) IBOutlet UILabel *longitudeLabel;
+@property (strong, nonatomic) IBOutlet UILabel *numPositionLabel;
 
 @end
 
