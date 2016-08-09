@@ -65,6 +65,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9dZ-pt-sLA">
                                                 <rect key="frame" x="0.0" y="0.0" width="300" height="29"/>
                                                 <state key="normal" title="Refresh Coordinates"/>
+                                                <connections>
+                                                    <action selector="refreshLocation:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="CF8-Ql-LiS"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="euW-QB-GIY">
                                                 <rect key="frame" x="300" y="0.0" width="300" height="29"/>
