@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController()
 
 @end
 
@@ -25,7 +25,7 @@
     _locationManager = [ILLocationManager new];
     [_locationManager requestLocationUpdates:self minTime:100 minDistance:0];
     
-    _mapView = [[MapView alloc] initWithFrame:CGRectMake(0, 300, self.view.frame.size.width, self.view.frame.size.height)];
+    _mapView = [[MapView alloc] initWithFrame:CGRectMake(0, 150, self.view.frame.size.width, self.view.frame.size.height)];
     _mapView.clipsToBounds = TRUE;
     _mapView.apiKey = @"d1eebea2-380f-42ad-aa3f-00844f5d37fc";
     _mapView.displayPOIs = TRUE;
@@ -81,6 +81,29 @@
         [resultArr removeLastObject];
         _numPositionLabel.text = [NSString stringWithFormat:@"%d", [_numPositionLabel.text intValue]-1];
     }
+}
+
+- (IBAction)emailLocationData:(id)sender{
+    if([MFMailComposeViewController canSendMail]) {
+        MFMailComposeViewController *mailCont = [[MFMailComposeViewController alloc] init];
+        mailCont.mailComposeDelegate = self;
+        
+        NSMutableString *resultStr = [[NSMutableString alloc]init];
+        for(NSString *str in resultArr){
+            [resultStr appendString:str];
+            [resultStr appendString:@", "];
+        }
+        
+        [mailCont setSubject:@"Infsoft Location Data"];
+        [mailCont setToRecipients:[NSArray arrayWithObject:@"vwang@crestron.com"]];
+        [mailCont setMessageBody:resultStr isHTML:NO];
+        
+        [self presentViewController:mailCont animated:YES completion:nil];
+    }
+}
+
+- (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end

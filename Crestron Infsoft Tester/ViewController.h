@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "InfsoftLocator.h"
 #import "InfsoftMaps.h"
+#import <MessageUI/MessageUI.h>
+#import <MessageUI/MFMailComposeViewController.h>
 
-@interface ViewController : UIViewController <ILLocationListener>
+@interface ViewController : UIViewController <ILLocationListener, MFMailComposeViewControllerDelegate>
 {
     ILLocationManager* _locationManager;
     MapView* _mapView;
